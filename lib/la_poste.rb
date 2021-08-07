@@ -10,6 +10,7 @@ require_relative "la_poste/invalid_transaction_error"
 require_relative "la_poste/transaction_producers/from_file"
 require_relative "la_poste/logger"
 require_relative "la_poste/rules/set_price"
+require_relative "la_poste/rules/ensure_lowest_s_price"
 
 # LaPoste is a module that calculates discounts for delivery transactions
 module LaPoste
