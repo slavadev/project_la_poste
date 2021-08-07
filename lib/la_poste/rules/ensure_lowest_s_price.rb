@@ -21,6 +21,8 @@ module LaPoste
       # @param [Transaction] transaction
       # @return [void]
       def call(transaction)
+        return if transaction.size != "S"
+
         current_price = transaction.discounted_price
         return if current_price <= @min_price
 

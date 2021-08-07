@@ -59,7 +59,7 @@ RSpec.describe LaPoste::Rules::EnsureLowestSPrice do
       let(:size) { "M" }
 
       before do
-        transaction.full_price = 1.0
+        transaction.full_price = 10.0
       end
 
       it "does not set the discount" do
