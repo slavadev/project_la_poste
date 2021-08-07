@@ -12,6 +12,7 @@ require_relative "la_poste/logger"
 require_relative "la_poste/rules/set_price"
 require_relative "la_poste/rules/ensure_lowest_s_price"
 require_relative "la_poste/rules/free_third_l_via_lp"
+require_relative "la_poste/rules/monthly_limit_discount"
 
 # LaPoste is a module that calculates discounts for delivery transactions
 module LaPoste
