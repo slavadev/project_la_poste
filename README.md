@@ -26,8 +26,8 @@ To run tests
   - Is covered by tests
   - Follows [style guides](https://github.com/rubocop/rubocop)
   - Includes [YARD](https://yardoc.org/) documentation comments
-  - Has clear commits history following [Conventional Commits specification](conventionalcommits.org)
-  - Is automatically [checked](actions) by CI(Github Actions)
+  - Has clear commits history following [Conventional Commits specification](https://conventionalcommits.org)
+  - Is automatically [checked](https://github.com/slavadev/project_la_poste/actions) by CI(Github Actions)
 
 ## Next steps:
 
