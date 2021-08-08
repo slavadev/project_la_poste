@@ -40,7 +40,7 @@ module LaPoste
       producer.next
     rescue InvalidTransactionError => e
       logger.log_invalid_transaction_error(e)
-      next_transaction(producer, logger)
+      retry
     end
   end
 end
