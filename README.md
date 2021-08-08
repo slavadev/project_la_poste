@@ -3,6 +3,11 @@
 Project LaPoste is a gem that allows you to calculate delivery prices and
 discounts following predefined rules.
 
+## Prerequisites
+
+- Ruby >= 2.5
+- (optional, for tests) Bundler >= 2
+
 ## Usage
 
 To run LaPoste you need provide a file with transactions(`input.txt` is used by
