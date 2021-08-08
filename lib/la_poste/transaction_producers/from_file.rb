@@ -43,7 +43,7 @@ module LaPoste
 
       def get_date(substr, line)
         Date.strptime(substr, "%Y-%m-%d")
-      rescue Date::Error
+      rescue ArgumentError
         raise_invalid_transaction_error(line)
       end
 
