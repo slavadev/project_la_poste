@@ -39,4 +39,4 @@ To run tests
 - **(Important)** Replace `Float` type with some kind of `Money` class([1](https://github.com/RubyMoney/money),[2](https://github.com/Shopify/money)) in all places where we deal with money. It will save us from rounding and other nasty problems.
 - Add test coverage reports
 - Add some kind of monitoring, e.g. DataDog
-- *(Optional)* Add [Sorbet](https://sorbet.org/) types it team is interested
+- *(Optional)* Add [Sorbet](https://sorbet.org/) types if the team is interested
